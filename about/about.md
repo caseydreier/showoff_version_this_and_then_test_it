@@ -6,4 +6,12 @@
 
 * Web Application Developer since 2006
 * TDD and SCM since 2008
-* Not a C.S. Major (Physics)
+* Ruby, PHP
+* Physics major (not C.S.)
+
+!SLIDE bullets
+
+* AWP
+* Cornell University
+* Singlebrook Technologies
+

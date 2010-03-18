@@ -6,4 +6,4 @@
 
 * Web Application Developer since 2006
 * TDD and SCM since 2008
-* Not a C.S. Major
+* Not a C.S. Major (Physics)

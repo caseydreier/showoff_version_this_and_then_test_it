@@ -41,7 +41,7 @@
 # Common SCM Functionality  #
 * History Tracking
 * Merging
-* Collaboration
+* Branching
 * Tagging
 * Reverting
 

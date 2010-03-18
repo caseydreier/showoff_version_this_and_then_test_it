@@ -41,8 +41,39 @@
 # Common SCM Functionality  #
 * History Tracking
 * Merging
+* Collaboration
 * Tagging
 * Reverting
+
+!SLIDE center
+
+## Your Code Is Entered into a Repository ##
+
+![Initial Commit](img/initial_commit.png)
+
+!SLIDE center
+
+## When you change your code, you can _commit_ your changes back to the repository ##
+
+![Basic SCM](img/scm_basic_cycle.png)
+
+!SLIDE center
+## Over time, you develop an organized history of your code ##
+![SCM History](img/scm_history.png)
+
+!SLIDE
+
+## Isn't that just like copying versions of your files? ##
+
+!SLIDE bullets
+# No! #
+
+* You only ever have one "copy" of your code
+* Every commit _must_ include a message describing what you're doing
+* You can compare different versions easily
+
+!SLIDE center
+![SCM History Browser](img/scm_history_manager.png)
 
 !SLIDE bullets
 # Popular SCM Systems #
@@ -60,3 +91,31 @@
 * __Mercurial (Hg)__
 * __Git__
 
+!SLIDE 
+## Git and Hg are _distributed_ source control systems ##
+
+!SLIDE center
+
+## So Instead of This ##
+
+![Classic VCS Structure](img/classic_vcs.png)
+
+!SLIDE center
+
+## We Have This ##
+![Distributed VCS Structure](img/distributed_vcs.png)
+
+!SLIDE bullets
+
+# What This Means #
+
+* With Distributed SCM, you don't need a server
+* Don't need a connection to the internet
+* Anyone who works with the code has the full history
+* Fast
+
+!SLIDE bullets
+
+# What this _Really_ means
+
+* It's easy for you to set up

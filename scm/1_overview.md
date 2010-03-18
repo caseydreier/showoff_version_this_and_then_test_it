@@ -4,9 +4,13 @@
 !SLIDE
 ## "Nobody is teaching people how to do source control." - Eric Sink##
 
-!SLIDE subsection
+!SLIDE
 
 # What is Source Control? #
+
+!SLIDE
+
+## Source control programs offer a structured system for tracking changes made to a project throughout its lifetime. ##
 
 !SLIDE commandline incremental
 
@@ -69,6 +73,7 @@
 # No! #
 
 * You only ever have one "copy" of your code
+* Works with directories and groups of files
 * Every commit _must_ include a message describing what you're doing
 * You can compare different versions easily
 
@@ -109,13 +114,28 @@
 
 # What This Means #
 
-* With Distributed SCM, you don't need a server
+* With Distributed SCM, you don't need a server (sits on top of the file system)
 * Don't need a connection to the internet
 * Anyone who works with the code has the full history
-* Fast
+* Remote repositories (GitHub)
 
 !SLIDE bullets
 
 # What this _Really_ means
 
 * It's easy for you to set up
+
+!SLIDE 
+
+# So Why Should You Use Source Control? #
+
+!SLIDE
+
+## If for nothing else, it makes your life easier.  Really. ##
+
+!SLIDE bullets
+# Why? #
+
+* Reminds you (and others!) what you did in a project and when
+* Helps you share your code with other people (who might make it better)
+* Allows you to confidently change your code knowing you can always revert back to a working version

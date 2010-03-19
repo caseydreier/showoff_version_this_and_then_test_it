@@ -96,15 +96,11 @@
 !SLIDE
 
 #  Makes you write code that is easily tested? #
-## (So? Isn't this a tautology?) ##
-
-!SLIDE
-
-# No #
+## (So?) ##
 
 !SLIDE bullets
 
-# Think about it: easily tested code tends to be: #
+# Think about it: easily tested code tends to be #
 * Small
 * Encapsulated
 * Object-Oriented
@@ -160,40 +156,3 @@
 * Java: JUnit
 * IDL: MGUnit
 * PHP: PHPUnit
-
-!SLIDE bullets
-
-# Test Frameworks Give You a Suite of Functions to Use #
-* equality testing
-* assert truth
-* assert error
-* and many more!
-
-!SLIDE
-## The framework handles the process of running your tests and returning the results ##
-
-!SLIDE commandline incremental
-## Tests are run from the command line ##
-  
-    $python test_my_methods.py
-    ....
-    ----------------------------------------------------------------------
-    Ran 4 tests in 0.001s
-
-!SLIDE
-
-## The dots mean a test was executed and returned True ##
-
-!SLIDE
-
-## You can write tests for your existing code ##
-
-!SLIDE
-
-## If it's hard to write a test for your code, that usually means your code is bad. ##
-### (sorry) ###
-
-!SLIDE
-
-## This means you should consider refactoring your code to make it easier to test. ##
-### You'll be glad you did. ###
